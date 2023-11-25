@@ -1,0 +1,22 @@
+{
+  "name": "typestest2",
+  "version": "0.0.1",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    "import": "./dist/esm/index.mjs",
+    "require": "./dist/cjs/index.cjs"
+  },
+  "main": "dist/cjs/index.cjs",
+  "module": "dist/esm/index.mjs",
+  "files": [
+    "dist/cjs",
+    "dist/esm"
+  ],
+  "scripts": {
+    "test": "echo \"No tests\""
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
